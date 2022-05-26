@@ -1,0 +1,11 @@
+.navbar{
+    width:100%;
+    position:absolute;
+    top:0;
+    padding-left:140px;
+    
+}
+.nav-list{
+    padding-left:5%;
+    justify-content:right;
+}

@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "../src/utils/Referpro-logos_transparent.png";
+import "./App.css";
+import HomeContent from "./Component/HomeContent/HomeContent";
+import Navbar from "./Component/NavBar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="nav-bar">
+        <img src={logo} className="logo" />
+        <Navbar />
+      </div>
+      <div className="HomeContent">
+        <HomeContent/>
+      </div>
     </div>
   );
 }
