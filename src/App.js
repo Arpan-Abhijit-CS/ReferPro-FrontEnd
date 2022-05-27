@@ -2,6 +2,9 @@ import logo from "../src/utils/Referpro-logos_transparent.png";
 import "./App.css";
 import HomeContent from "./Component/HomeContent/HomeContent";
 import Navbar from "./Component/NavBar/Navbar";
+import Login from "./Component/LoginComponent/Login";
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -10,10 +13,12 @@ function App() {
         <img src={logo} className="logo" />
         <Navbar />
       </div>
-      <div className="HomeContent">
-        <HomeContent/>
-      </div>
+        <Routes>
+          <Route className="HomeContent" path="/" element={<HomeContent />} />
+          <Route className="login" path="/login" element={<Login />} />
+        </Routes>
     </div>
+  
   );
 }
 

@@ -1,0 +1,46 @@
+.sign-in-form{
+    margin-left: 35%;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.btn{
+    border-radius: 50px;
+}
+.form-control{
+    border-radius: 10px;
+}
+.mailLabel{
+    text-align: left;
+}
+.social-icons{
+    float: right;
+   margin-right: 10px;
+   margin-top: -5px;
+   padding-left: 4px;
+}
+h6 {
+     position: relative;
+     display: inline-block;
+     margin-left: 45%;
+ }
+ 
+ h6:before {
+     content: "_____";
+     color: black;
+     position: absolute;
+     top: -5px;
+     left: -45px;
+ }
+ 
+ h6:after {
+     content: "_____";
+     color: black;
+     position: absolute;
+     top: -5px;
+     right: -45px;
+ }
+
+ .icon-login h5{
+     display: inline;
+ }
