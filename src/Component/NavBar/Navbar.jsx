@@ -28,6 +28,9 @@ function Navbar() {
               <li className="nav-item active">
               <Link className="nav-link sr-only " to="/">Home</Link>  
               </li>
+              <li className="nav-item active">
+              <Link className="nav-link sr-only " to="/contactus">Contact Us</Link>  
+              </li>
               <li className="nav-item">
                 <a className="nav-link " href="#">
                   Customers

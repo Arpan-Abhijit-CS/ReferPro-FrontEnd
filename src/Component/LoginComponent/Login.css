@@ -19,13 +19,13 @@
    margin-top: -5px;
    padding-left: 4px;
 }
-h6 {
+.or-text {
      position: relative;
      display: inline-block;
      margin-left: 45%;
  }
  
- h6:before {
+ .or-text:before {
      content: "_____";
      color: black;
      position: absolute;
@@ -33,7 +33,7 @@ h6 {
      left: -45px;
  }
  
- h6:after {
+ .or-text:after {
      content: "_____";
      color: black;
      position: absolute;
